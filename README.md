@@ -100,7 +100,7 @@ Render a partial in the current views directory named `_product.html.erb`
 <%= render "product" %>
 ```
 
-Render a partial in `shared/_footer.html.erb`
+We can store our partials in a shared folder. We will create a folder at the `view` level called `shared`. Render a partial in `shared/_footer.html.erb`
 ```erb
 <%= render "shared/footer" %>
 ```
